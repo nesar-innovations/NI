@@ -40,21 +40,19 @@ h2{
 }
 #form-container{
     margin-top: 150px;
-    color:black;
     background-color: rgba(0, 0, 0, 0.65);
     text-align: center;
-    height: 500px;
+    height: 550px;
     width: 900px;
     border-radius: 15px;
     margin-left: 220px;
-    box-shadow: 0px 
 }
 #submit-button{
     background-color: black;
     font-family: sans-serif;
     font-weight: 900;
     width:400px;
-        color:whitesmoke;
+    color:whitesmoke;
     
 }
 .inputs{
@@ -73,4 +71,14 @@ h2{
 .links:hover{
     color:orange;
     font-weight: bolder;
+    transition-duration: 1s;
 }
+#submit-button:active{
+    background-color: grey;
+    transition-duration: 2ms;
+}
+.gender{
+    color:white;
+    display: inline-block;
+}
+
