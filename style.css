@@ -83,6 +83,7 @@ h2{
 .gender{
     color:white;
     display: inline-block;
+    margin-top:10px;
 }
 #total-spaced-form{
     display:flex;
@@ -92,6 +93,7 @@ h2{
     display:flex;
     justify-content:center;
 }
+
 
 
 
