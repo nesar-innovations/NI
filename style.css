@@ -83,7 +83,14 @@ h2{
     color:white;
     display: inline-block;
 }
-
+#total-spaced-form{
+    display:flex;
+    justify-content:center;
+}
+#gender-div{
+    display:inline-flex;
+    justify-content:center;
+}
 
 
 
