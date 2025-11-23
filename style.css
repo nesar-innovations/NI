@@ -71,7 +71,7 @@ h2{
 .links:hover{
     color:orange;
     font-weight: bolder;
-    transition-duration: 1s;
+    transition-duration: 0.75s;
 }
 #submit-button:active{
     background-color: grey;
@@ -81,4 +81,5 @@ h2{
     color:white;
     display: inline-block;
 }
+
 
