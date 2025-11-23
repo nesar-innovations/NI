@@ -78,12 +78,13 @@ h2{
 }
 #submit-button:hover{
     transform:scale(1.10);
-    transition-duration:5s;
+    transition-duration:2.5s;
 }
 .gender{
     color:white;
     display: inline-block;
 }
+
 
 
 
