@@ -86,7 +86,7 @@ body{
     background-color: grey;
 }
 #submit-button:hover{
-    transform:scale(1.10,1);
+    transform:scale(1.05,1);
     transition:all 1s ease-in;
 }
 .gender{
@@ -114,6 +114,7 @@ body{
     transform: translateX(600px);
 }
     
+
 
 
 
