@@ -115,8 +115,8 @@ body{
     font-family: arial;
 }
 #credit{
-    height:150px;
-    width:150px;
+    height:200px;
+    width:200px;
     border-radius:50%;
 }
 #footer {
@@ -125,10 +125,9 @@ body{
     margin-top: 70px;
     font-family: arial;
     padding: 20px 0;
-    height: auto; /* overflow fix */
+    height: auto;
 }
 
-/* ⭐ Image LEFT + Text RIGHT */
 footer {
     display: flex;
     justify-content: center;
@@ -136,34 +135,27 @@ footer {
     gap: 40px;
     padding: 10px;
 }
-
-/* ⭐ Image container (your original ID: #c-d) */
 #c-d {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/* ⭐ Text container (your original ID: #f-d) */
 #f-d {
     text-align: left;
     display: flex;
-    flex-direction: column;  /* makes multiline */
+    flex-direction: column; 
 }
-
-/* ⭐ Footer text (your original class: .footer) */
 .footer {
     margin: 4px 0;
     font-size: 13px;
     display: block;
 }
-
-/* ⭐ Your image (original ID: #credit) */
 #credit {
     height: 150px;
     width: 150px;
     border-radius: 50%;
 }
+
 
 
 
