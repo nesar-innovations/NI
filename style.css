@@ -70,7 +70,6 @@ body{
 }
 #footer{
     background-color: rgba(0, 0, 0, 0.65);
-    text-align: right;
     height: 160px;
     color:whitesmoke;
     margin-top:70px;
@@ -113,6 +112,7 @@ body{
     font-size:13px;
     font-style:arial;
     padding-top:10px;
+    text-align: right;
 }
 .footer:hover{
     border:0.01px dashed orange;
@@ -126,6 +126,14 @@ body{
     width:500px;
     font-family: arial;
 }
+#credit{
+    display:flex;
+    justify-content:center;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+}
+
 
 
 
