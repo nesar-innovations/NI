@@ -75,7 +75,7 @@ body{
     transition-duration: 0.7s;
 }
 #submit-button:active{
-    background-color: grey;
+    background-color: orange;
 }
 #submit-button:hover{
     transform:scale(1.05,1);
@@ -153,6 +153,7 @@ footer {
     font-size: 13px;
     display: block;
 }
+
 
 
 
