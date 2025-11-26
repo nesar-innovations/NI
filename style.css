@@ -108,7 +108,7 @@ body{
     color:orange;
 }
 .footer:hover{
-    transition:all 0.7s ease-in;
+    transition:font-size 0.5s ease-in;
     font-size:13.7px;
     }
 #hobby{
@@ -157,6 +157,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
