@@ -32,7 +32,7 @@ body{
     align-items: end;
     text-align: right;
     margin-left: 370px;
-    width: 500px;
+    width: 300px;
     font-weight: 400;
 }
 #logo{
@@ -162,5 +162,6 @@ footer {
     margin-left:400px;
     margin-top:30px
 }
+
 
 
