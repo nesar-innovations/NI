@@ -4,6 +4,7 @@
 
 }
 body{
+    background-image:url("galaxy-wallpaper-warm-colors.jpg");
     background-size: cover;
     text-align: center;
 }
@@ -164,6 +165,7 @@ footer {
   min-height: 100%;
     z-index:-5;
 }
+
 
 
 
