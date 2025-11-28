@@ -4,7 +4,7 @@
 }
 @keyframes head{
     from{transform: translateX(0px);}
-    to{transform:translateX(350px);}
+    to{transform:translateX(335px);}
 }
 @keyframes headings{
     from{transform: translateX(0px);}
@@ -182,6 +182,7 @@ footer {
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
 }
+
 
 
 
