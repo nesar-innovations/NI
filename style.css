@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+@keyframes headings{
+    from{transform: translateX(0px);}
+    to{transform:translateX(335px);}
+}
 body{
     background-image:url("galaxy-wallpaper-warm-colors.jpg");
     background-size: cover;
@@ -31,7 +34,7 @@ body{
     margin-right: 0px;
     align-items: end;
     text-align: right;
-    margin-left: 370px;
+    margin-left: 600px;
     width: 300px;
     font-weight: 400;
 }
@@ -161,6 +164,8 @@ footer {
     width:150px;
     margin-left:100px;
     margin-top:30px;
+    animation: headings 0.8s ease-in;
+    animation-fill-mode: forwards;
 }
 
 
