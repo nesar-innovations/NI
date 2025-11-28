@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-
 }
+
 body{
     background-image:url("galaxy-wallpaper-warm-colors.jpg");
     background-size: cover;
@@ -159,9 +159,10 @@ footer {
 }
 #main-head{
     width:150px;
-    margin-left:400px;
-    margin-top:30px
+    margin-left:100px;
+    margin-top:30px;
 }
+
 
 
 
