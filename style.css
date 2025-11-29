@@ -88,7 +88,7 @@ body{
     border-radius: 15px;
 }
 #submit-button{
-    background-image: linear-gradient(135deg,orange,black,orange);
+    background-image: linear-gradient(orange,black,orange);
     font-family: sans-serif;
     font-weight: 700;
     width:400px;
@@ -220,6 +220,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
