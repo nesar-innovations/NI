@@ -83,12 +83,12 @@ body{
     margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.65);
     text-align: center;
-    height: 750px;
-    width: 900px;
+    height: 950px;
+    width: 930px;
     border-radius: 15px;
 }
 #submit-button{
-    background-color: black;
+    background-image: linear-gradient(135deg,black,orange);
     font-family: sans-serif;
     font-weight: 700;
     width:400px;
@@ -138,7 +138,7 @@ body{
 }
 #gender-div2{
     display:flex;
-    width:100px;
+    width:270px;
     justify-content:space-around;
 }
 .footer:hover{
@@ -198,3 +198,4 @@ footer {
     display: block;
     padding-left:5px;
 }
+
