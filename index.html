@@ -25,82 +25,101 @@
             <br><br><br>
                   <h2 class = "headings">Job application form</h2><br>
                 <h3 class="headings">Personal information</h3>
-                  <input type="text" name="First-name" class = "inputs" placeholder="Enter First name" required><br><br>
+                    <input type="text" name="First-name" class = "inputs" placeholder="Enter First name" required><br><br>
                     <input type="text" placeholder="Enter your Last name" name="Last-name" id = "last-name" class ="inputs" required ><br><br>
                     <input type="tel" inputmode="numeric" patter="\d{10}"maxlength="10"placeholder="Enter mobile number" name="number" id = "number" class="inputs" required><br><br>
                     <input type = "email" placeholder="Enter your email" name="email" id = "email" class="inputs" pattern=".*@.*" required><br><br>
                     <h4 class="headings">City</h4><br>
-                    <select class="inputs" id ="city" name = "city">
-                        <option value="ferozepur">Ferozepur</option>
-                        <option value="ludhiana">Ludhiana</option>
-                        <option value="chandigarh">chandigarh</option>
-                        <option value="bathinda">bathinda</option>
-                        <option value="talwandi">talwandi</option>
-                        <option value="patiala">patiala</option>
-                        <option value="amritsar">amritsar</option>
-                    </select><br><br>
+                        <select class="inputs" id ="city" name = "city">
+                            <option value="ferozepur">Ferozepur</option>
+                            <option value="ludhiana">Ludhiana</option>
+                            <option value="chandigarh">chandigarh</option>
+                            <option value="bathinda">bathinda</option>
+                            <option value="talwandi">talwandi</option>
+                            <option value="patiala">patiala</option>
+                            <option value="amritsar">amritsar</option>
+                        </select><br><br>
                 <h4 class   ="headings">D.O.B.</h4>
-                <input type="date" name="D.O.B."required class= "inputs">
+                    <input type="date" name="D.O.B."required class= "inputs">
                 <h4 class="headings">Gender</h4><br>
-                <div id = "gender-div">
-                    <div id ="gender-div2">
-                    <label>
-                    <input required type="radio" name="gender" value="Male" class="gender" ><p class="gender" id = "male">Male</p><br><br>
-                    </label>
-                    <label>
-                    <input required type="radio" name="gender" value="Female"class="gender"><p class="gender">Female</p><br><br>
-                    </label>
-                    <label>
-                        <input type = "radio" name ="gender" value ="Others"class="gender" ><p class = "gender">Others</p><br><br>
-                    </label> 
+                    <div id = "gender-div">
+                        <div id ="gender-div2">
+                        <label>
+                        <input required type="radio" name="gender" value="Male" class="gender" ><p class="gender" id = "male">Male</p><br><br>
+                        </label>
+                        <label>
+                        <input required type="radio" name="gender" value="Female"class="gender"><p class="gender">Female</p><br><br>
+                        </label>
+                        <label>
+                            <input type = "radio" name ="gender" value ="Others"class="gender" ><p class = "gender">Others</p><br><br>
+                        </label> 
+                        </div>
                     </div>
-                </div>
                 <h4 class="headings">Qualifications</h4>
-                <select name="qualification" id="qualification" class= "inputs">
-                  <option value="">-- Select Qualification --</option>
-                  <option value="10th-pass">10th Pass (Secondary School)</option>
-                  <option value="12th-pass">12th Pass (Higher Secondary School)</option>
-                  <option value="diploma">Diploma (Polytechnic/ITI/Vocational)</option>
-                  <option value="bachelors-degree">Bachelor's Degree (e.g., B.A., B.Sc., B.Com., B.E., B.Tech)</option>
-                  <option value="masters-degree">Master's Degree (e.g., M.A., M.Sc., M.Com., M.E., M.Tech, MBA)</option>
-                  <option value="doctoral-degree">Doctoral Degree (Ph.D., M.Phil.)</option>
-                  <option value="professional-certification">Professional Certification (e.g., CA, CS, etc.)</option>
-                  <option value="other">Other</option>
-                </select><br><br>
+                    <select name="qualification" id="qualification" class= "inputs">
+                      <option value="">-- Select Qualification --</option>
+                      <option value="10th-pass">10th Pass (Secondary School)</option>
+                      <option value="12th-pass">12th Pass (Higher Secondary School)</option>
+                      <option value="diploma">Diploma (Polytechnic/ITI/Vocational)</option>
+                      <option value="bachelors-degree">Bachelor's Degree (e.g., B.A., B.Sc., B.Com., B.E., B.Tech)</option>
+                      <option value="masters-degree">Master's Degree (e.g., M.A., M.Sc., M.Com., M.E., M.Tech, MBA)</option>
+                      <option value="doctoral-degree">Doctoral Degree (Ph.D., M.Phil.)</option>
+                      <option value="professional-certification">Professional Certification (e.g., CA, CS, etc.)</option>
+                      <option value="other">Other</option>
+                    </select><br><br>
+                <h4 class = headings>Finding job as:</h4>
+                    <select id="job-type" name="job-type" class = "inputs">
+                        <option value="">--Please choose an option--</option>
+                        <option value="ai-engineer">AI Engineer</option>
+                        <option value="machine-learning-engineer">Machine Learning Engineer</option>
+                        <option value="data-scientist">Data Scientist</option>
+                        <option value="research-scientist">AI Research Scientist</option>
+                        <option value="robotics-engineer">Robotics Engineer</option>
+                        <option value="computer-vision-engineer">Computer Vision Engineer</option>
+                        <option value="natural-language-processing-engineer">NLP Engineer</option>
+                        <option value="software-engineer-ai">Software Engineer (AI/ML focus)</option>
+                        <option value="product-manager-ai">AI Product Manager</option>
+                        <option value="data-engineer">Data Engineer</option>
+                        <option value="devops-engineer-ai">DevOps Engineer (AI/ML infrastructure)</option>
+                        <option value="technical-writer-ai">Technical Writer (AI focus)</option>
+                        <option value="ux-designer-ai">UX Designer (AI applications)</option>
+                        <option value="sales-ai-solutions">Sales (AI Solutions)</option>
+                        <option value="marketing-ai-solutions">Marketing (AI Solutions)</option>
+                    </select>
                 <h4 class= "headings">Expected salary(In range)</h4>
-                <div id="salary-div">
-                
-                    <label class="salary-option">
-                        <input type="checkbox" name="salary" value="0-70k">
-                        0–70 Thousand
-                    </label>
-                
-                    <label class="salary-option">
-                        <input type="checkbox" name="salary" value="1-1.5L">
-                        1–1.5 Lakh
-                    </label>
-                
-                    <label class="salary-option">
-                        <input type="checkbox" name="salary" value="1.5-3L">
-                        1.5–3 Lakh
-                    </label>
-                
-                    <label class="salary-option">
-                        <input type="checkbox" name="salary" value="3-5L">
-                        3–5 Lakh
-                    </label>
-                
-                    <label class="salary-option">
-                        <input type="checkbox" name="salary" value="5-7L">
-                        5–7 Lakh
-                    </label>
-                
-                </div>
+                    <div id="salary-div">
+                    
+                        <label class="salary-option">
+                            <input type="checkbox" name="salary" value="0-70k">
+                            0–70 Thousand
+                        </label>
+                    
+                        <label class="salary-option">
+                            <input type="checkbox" name="salary" value="1-1.5L">
+                            1–1.5 Lakh
+                        </label>
+                    
+                        <label class="salary-option">
+                            <input type="checkbox" name="salary" value="1.5-3L">
+                            1.5–3 Lakh
+                        </label>
+                    
+                        <label class="salary-option">
+                            <input type="checkbox" name="salary" value="3-5L">
+                            3–5 Lakh
+                        </label>
+                    
+                        <label class="salary-option">
+                            <input type="checkbox" name="salary" value="5-7L">
+                            5–7 Lakh
+                        </label>
+                    
+                    </div>
 
                 <h4 class = headings>Talent</h4>
-                <textarea id ="talent" placeholder="Enter your talent here(any eg:coding,reason we should hire you)" name="textarea"></textarea><br>
-                    <input type="submit" class="inputs" id = "submit-button">
-                </form>
+                    <textarea id ="talent" placeholder="Enter your talent here(any eg:coding,reason we should hire you)" name="textarea"></textarea><br>
+                <input type="submit" class="inputs" id = "submit-button">
+            </form>
         </div><br><br><br>
         </div>
 
@@ -130,6 +149,7 @@
         </div>
 </body>
 </html>
+
 
 
 
