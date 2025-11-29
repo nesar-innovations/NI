@@ -24,7 +24,7 @@ body{
 }
 .headings{
         margin-right: 600px;
-        color:linear-gradient(white,orange);
+        color:whitesmoke;
         font-family: 'Trebuchet MS';
         animation-name: headings;
         animation-duration: 0.8s;
@@ -184,6 +184,7 @@ footer {
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
 }
+
 
 
 
