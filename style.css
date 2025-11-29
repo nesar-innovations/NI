@@ -142,7 +142,7 @@ body{
 .footer:hover{
     border:0.01px dashed orange;
     border-radius:7px;
-    background: -webkit-linear-gradient(45deg,orange 70%,whitesmoke);
+    background: -webkit-linear-gradient(orange ,whitesmoke);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -196,6 +196,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
