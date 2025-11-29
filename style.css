@@ -15,6 +15,21 @@ body{
     background-size: cover;
     text-align: center;
 }
+#main-head{
+    width:150px;
+    margin-left:100px;
+    margin-top:30px;
+    font-family: 'Trebuchet MS';
+    animation-name: head;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    background: -webkit-linear-gradient(white,orange 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .links{
     text-decoration: none;
     margin-top: 25px;
@@ -24,7 +39,7 @@ body{
 }
 .headings{
         margin-right: 600px;
-        background: -webkit-linear-gradient(whitesmoke 40%,orange 60%);
+        background: -webkit-linear-gradient(whitesmoke,orange);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Trebuchet MS';
@@ -172,21 +187,6 @@ footer {
     font-size: 13px;
     display: block;
     padding-left:5px;
-}
-#main-head{
-    width:150px;
-    margin-left:100px;
-    margin-top:30px;
-    font-family: 'Trebuchet MS';
-    animation-name: head;
-    animation-duration: 0.8s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-    animation-delay: 0.3s;
-    background: -webkit-linear-gradient(white,orange);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 
