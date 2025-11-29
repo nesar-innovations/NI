@@ -24,7 +24,7 @@ body{
 }
 .headings{
         margin-right: 600px;
-        background: -webkit-linear-gradient(whitesmoke,orange);
+        background: -webkit-linear-gradient(whitesmoke 40%,orange 60%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Trebuchet MS';
@@ -188,6 +188,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 
