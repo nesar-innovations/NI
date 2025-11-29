@@ -58,7 +58,7 @@ body{
     position: relative;
     z-index: 10;
 }
-.navbar::after {
+#navbar::after {
     content: "";
     position: absolute;
     left: 0;
@@ -225,6 +225,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
