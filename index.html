@@ -27,7 +27,7 @@
                 <h3 class="headings">Personal information</h3>
                   <input type="text" name="First-name" class = "inputs" placeholder="Enter First name" required><br><br>
                     <input type="text" placeholder="Enter your Last name" name="Last-name" id = "last-name" class ="inputs" required ><br><br>
-                    <input type="tel" inputmode="numeric" maxlength="10"placeholder="Enter mobile number" name="number" id = "number" class="inputs" required><br><br>
+                    <input type="tel" inputmode="numeric" patter="\d{10}"maxlength="10"placeholder="Enter mobile number" name="number" id = "number" class="inputs" required><br><br>
                     <input type = "email" placeholder="Enter your email" name="email" id = "email" class="inputs" pattern=".*@.*" required><br><br>
                     <h4 class="headings">City</h4><br>
                     <select class="inputs" id ="city" name = "city">
@@ -82,6 +82,7 @@
         </div>
 </body>
 </html>
+
 
 
 
