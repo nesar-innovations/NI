@@ -177,7 +177,6 @@ footer {
     width:150px;
     margin-left:100px;
     margin-top:30px;
-    color:whitesmoke;
     font-family: 'Trebuchet MS';
     animation-name: head;
     animation-duration: 0.8s;
@@ -185,7 +184,11 @@ footer {
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
+    background: -webkit-linear-gradient(white,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 
 
