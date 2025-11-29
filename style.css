@@ -146,8 +146,9 @@ body{
 #salary-div {
     display: flex;
     flex-direction: column;   
-    align-items: flex-start;   
-    gap: 10px;                 
+    align-items: center; 
+    gap: 10px;     
+    text-align:center;
 }
 #male{
     padding-right:20px;
@@ -219,6 +220,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
