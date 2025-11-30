@@ -203,6 +203,9 @@ body{
     width:200px;/*balebale*/
     border-radius:50%;
 }
+#credit:hover{
+    transform:scale(1.10);
+}
 #footer {
     background-color: rgba(0, 0, 0, 0.65);
     color: whitesmoke;
@@ -235,6 +238,7 @@ footer {
     display: block;
     padding-left:5px;
 }
+
 
 
 
