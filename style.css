@@ -17,7 +17,7 @@
     from { transform: translateX(0px); }
     to { transform: translateX(300px); }
 }
-@keyframes{
+@keyframes button{
     from{
         background-image: linear-gradient(
         160deg,
@@ -220,6 +220,9 @@ select option {
     font-weight: 800;
     transform: scale(1.05, 1);
     transition: all 0.5s ease-in;
+    animation-name:button;
+    animation-duration:0.4s;
+    animation-timing-function:ease-in;
 }
 
 #submit-button:active {
@@ -357,6 +360,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
