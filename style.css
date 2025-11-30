@@ -185,11 +185,9 @@ select option {
 
 #submit-button {
     background-image: linear-gradient(
-        to left top,
-        rgba(16, 54, 117, 0.8),
-        rgba(51, 110, 173, 0.8),
-        rgba(77, 178, 248, 0.8),
-        rgba(112, 208, 248, 0.8)
+        140deg,
+        pink,
+        magenta
     );
     font-family: sans-serif;
     font-weight: 600;
@@ -197,7 +195,7 @@ select option {
     margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 15px;
-    color: linear-gradient(pink,magenta);
+    color: whitesmoke;
 }
 
 #submit-button:hover {
@@ -341,5 +339,6 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
