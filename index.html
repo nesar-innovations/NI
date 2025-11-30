@@ -28,7 +28,7 @@
             <form id = "form" action="https://api.web3forms.com/submit" method="POST">
                   <input type="hidden" name="access_key" value="3084628c-fdfc-4465-9120-038c86e72a5a">
             <br><br><br>
-            
+            <label>
                   <h2 class = "headings" id="f-main-head">Job Application Form</h2><br>
                   <label>
                 <h3 class="headings">Personal Information</h3><br><br>
@@ -48,9 +48,8 @@
                     <label for ="e-n"><h4 class="headings">Mobile Number*</h4></label>
                     <input type = "email" placeholder="Enter your email" name="email" id = "email" class="inputs" pattern=".*@.*" required><br><br>
                 </div>
-                    </label>
-                    <div>
-                        <label for="city"><h4 class="headings" required>City*</h4></label>
+                    </label><label>
+                    <h4 class="headings" required>City*</h4>
                         <select name="city" id="city" class= "inputs">
                             <option value="start">-- Select City --</option>
                             <option value="ferozepur">Ferozepur</option>
@@ -204,14 +203,14 @@
                             <option value="durg">Durg</option>
                             <option value="durgapur">Durgapur</option>
                             <option value="dwaraka">Dwarka</option>
-                        </select><br><br></div>
-                        
-                <div>
-                <label for="DOB" ><h4 class ="headings">D.O.B.*</h4></label>
-                    <input id = "DOB" type="date" name="D.O.B."required class= "inputs">
-                </div>
-                <div>
-                    <label for= "genderdiv"><h4 class="headings">Gender*</h4><br></label>
+                        </select><br><br>
+                        </label>
+                        <label>
+                <h4 class ="headings">D.O.B.*</h4>
+                    <input type="date" name="D.O.B."required class= "inputs">
+                    </label>
+                    <label>
+                <h4 class="headings">Gender*</h4><br>
                     <div id = "gender-div">
                         <div id ="gender-div2">
                         <label>
@@ -225,9 +224,9 @@
                         </label> 
                         </div>
                     </div>
-                    </div>
-                <div>
-                <label for="qualification" ><h4 class="headings">Qualifications*</h4>
+                    </label>
+                <label>
+                <h4 class="headings">Qualifications*</h4>
                     <select required name="qualification" id="qualification" class= "inputs">
                       <option value="">-- Select Qualification --</option>
                       <option value="10th-pass">10th Pass (Secondary School)</option>
@@ -240,9 +239,8 @@
                       <option value="other">Other</option>
                     </select><br><br>
                 </label>
-                </div>
-                <div>
-                <label for ="job-type"><h4 class = headings >Finding job as:*</h4></label>
+                <label>
+                <h4 class = headings >Finding job as:*</h4>
                     <select id="job-type" name="job-type" class = "inputs" required>
                         <option value="">--Please choose an option--</option>
                         <option value="ai-engineer">AI Engineer</option>
@@ -260,9 +258,10 @@
                         <option value="ux-designer-ai">UX Designer (AI applications)</option>
                         <option value="sales-ai-solutions">Sales (AI Solutions)</option>
                         <option value="marketing-ai-solutions">Marketing (AI Solutions)</option>
-                    </select><br><br><br></div>
-                <div>
-                <label for = "exp-div"><h4 class="headings">Experience* </h4></label>
+                    </select><br><br><br>
+                </label>
+                <label>
+                <h4 class="headings">Experience* </h4>
                     <div id="exp-div">
                         
                         <label class="exp-option">
@@ -293,8 +292,8 @@
                             <input type="radio" name="exp" value="10+">
                             10+ years
                         </label>
-                    </div><br><br></div>
-                <div>
+                    </div><br><br></label>
+                    <label>
                 <h4 class= "headings">Expected salary(In range)*</h4>
                     <div id="salary-div">
                     
@@ -321,8 +320,7 @@
                         <label class="salary-option">
                             <input type="radio" name="salary" value="5-7L"required>
                             5-7 Lakh
-                        </label>
-                        </div>
+                        </label></label>
                     
                     </div><br><br>
                 <label>
@@ -330,7 +328,7 @@
                     <textarea id ="talent" placeholder="Enter your talent here(any eg:coding,reason we should hire you)" name="textarea"></textarea><br>
                 <input type="submit" class="inputs" id = "submit-button">
                 </label>
-            
+            </label>
             </form>
         </div><br><br><br>
         </div>
@@ -361,19 +359,3 @@
         </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
