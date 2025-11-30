@@ -186,8 +186,8 @@ select option {
 #submit-button {
     background-image: linear-gradient(
         160deg,
-        pink,
-        magenta
+        orange,
+        whitesmoke
     );
     font-family: sans-serif;
     font-weight: 600;
@@ -339,6 +339,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
