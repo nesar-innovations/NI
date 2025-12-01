@@ -131,12 +131,10 @@ body {
 }
 
 .links:hover {
-    color:whitesmoke;
     background-image: linear-gradient(135deg, rgba(245, 245, 245,0.75), rgba(252, 181, 3,0.75) 70%);
-    font-weight: 600;
-    transition-duration: 0.7s;
+    font-weight: 400;
+    transition:font-weight 0.7s ease-in;
     border-radius:9px;
-    
 }
 
 
@@ -204,22 +202,17 @@ select option {
 }
 
 #submit-button {
-    background-image: linear-gradient(
-        160deg,
-        orange 48%,
-        whitesmoke
-    );
+    background-color:white;
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     width: 400px;
     margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 15px;
-    color: whitesmoke;
+    color: black;
 }
 
 #submit-button:hover {
-    font-weight: 800;
     transform: scale(1.05, 1);
     transition: all 0.5s ease-in;
     animation-name:button;
@@ -362,6 +355,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
