@@ -131,11 +131,12 @@ body {
 }
 
 .links:hover {
-    background: -webkit-linear-gradient(135deg, whitesmoke, orange 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition-duration: 0.7s;
+    color:whitesmoke;
+    background-image: linear-gradient(135deg, rgba(245, 245, 245,0.75), rgba(252, 181, 3,0.75) 70%);
     font-weight: 600;
+    transition-duration: 0.7s;
+    border-radius:9px;
+    
 }
 
 
@@ -361,6 +362,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
