@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:arial;
+    font-weight:300;
 }
 
 /* -------------------------------------- */
@@ -360,6 +361,7 @@ form {
     box-shadow: 0 0 25px rgba(255, 165, 0, 0.3);
     border-radius: 12px;
 }
+
 
 
 
