@@ -396,22 +396,20 @@ select option {
 }
 
 #submit-button,#reset-button {
-    background-image:linear-gradient(140deg,rgb(50, 202, 253),rgb(255, 30, 30));
+    background-color:transparent;
     font-family: sans-serif;
     font-weight: 700;
     width: 400px;
     margin-top: 30px;
-    border-radius: 15px;
+    border-radius: 9px;
     color: whitesmoke;
+    border:2px solid white
 }
 #submit-button{
     margin-bottom: 50px;
 }
-#submit-button:hover {
-    transform: scale(1.05, 1);
-}
 
-#submit-button:active {
+#submit-button:active,#reset-button:active {
     background: -webkit-linear-gradient(135deg, black, orange 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -478,3 +476,4 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
