@@ -27,10 +27,6 @@ body {
 /* ANIMATIONS */
 /* -------------------------------------- */
 
-@keyframes head {
-    from { transform: translateX(0px); }
-    to { transform: translateX(47vh); }
-}
 
 @keyframes headings {
     from { transform: translateX(0px); }
@@ -49,11 +45,6 @@ body {
     margin-left: 200px;
     margin-top: 30px;
     font-family: 'Trebuchet MS';
-    animation-name: head;
-    animation-duration: 0.8s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in;
-    animation-delay: 0.3s;
     background: -webkit-linear-gradient(135deg, whitesmoke, orange 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -289,7 +280,7 @@ body {
     margin-top: 150px;
     background-color: rgba(0, 0, 0, 0.24);
     text-align: center;
-    width: 650px;
+    width: 70vh;
     height: auto;
     border-radius: 15px;
     backdrop-filter: blur(13.3px);
@@ -315,7 +306,7 @@ form {
     border-bottom: 1.7px solid rgba(255, 255, 255, 0.6);
     margin-top: 10px;
     height: 37px;
-    width: 380px;
+    width: 50vh;
     font-family: arial;
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.6);
@@ -338,8 +329,8 @@ form {
 #talent {
     border-radius: 10px;
     margin-top: 10px;
-    height: 100px;
-    width: 500px;
+    height: 10vh;
+    width: 50vh;
     font-family: arial;
     padding-left: 10px;
     padding-top: 5px;
@@ -369,6 +360,8 @@ select option {
     display: flex;
     align-items: center;
     font-weight: 100;
+    width: 50vh;
+    margin: auto;
 }
 
 #gender-div {
@@ -399,7 +392,7 @@ select option {
     background-color:white;
     font-family: sans-serif;
     font-weight: 700;
-    width: 400px;
+    width: 50vh;
     height:49px;
     margin-top: 30px;
     border-radius: 6px;
@@ -427,6 +420,7 @@ select option {
     font-family: arial;
     padding: 20px 0 0 0;
     height: auto;
+    width:auto
 }
 
 footer {
@@ -477,6 +471,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
