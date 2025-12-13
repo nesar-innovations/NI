@@ -293,7 +293,7 @@ form {
     border-bottom: 1.7px solid rgba(255, 255, 255, 0.6);
     margin-top: 10px;
     height: 37px;
-    width: 60vw;
+    width: 380px;
     font-family: arial;
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.6);
@@ -458,6 +458,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
