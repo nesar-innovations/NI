@@ -40,12 +40,12 @@ body {
 
 
 .headings {
-    margin-right: 600px;
+    margin:auto;
     background: -webkit-linear-gradient(whitesmoke, orange);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Trebuchet MS';
-    margin: 20px auto;
+    margin: 5px auto;
     text-align: center;
     background: -webkit-linear-gradient(whitesmoke, orange);
     -webkit-background-clip: text;
@@ -54,7 +54,7 @@ body {
     font-weight: 450;
 }
 #f-main-head {
-    margin: 20px;
+    margin: 20px 20auto;
 }
 /* -------------------------------------- */
 /* NAVBAR & MENU */
@@ -458,6 +458,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
