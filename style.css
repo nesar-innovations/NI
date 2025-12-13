@@ -29,7 +29,7 @@ body {
 
 @keyframes head {
     from { transform: translateX(0px); }
-    to { transform: translateX(135%); }
+    to { transform: translateX(47vh); }
 }
 
 @keyframes headings {
@@ -477,6 +477,7 @@ footer {
     transform: scale(1.10);
     transition-duration: 0.4s;
 }
+
 
 
 
